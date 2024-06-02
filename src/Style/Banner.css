@@ -1,0 +1,27 @@
+
+
+.banner-img1,.banner-img2,.banner-img3,.banner-img4{
+    width: 90%;
+    height: 300px;
+    margin-top: 5%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.banner-img1 img{
+    width: 100% ;
+}
+
+
+.banner-img2 img{
+    width: 100%;   
+}
+
+
+.banner-img3 img{
+    width: 100%;   
+}
+
+.banner-img4 img{
+    width: 100%; 
+}

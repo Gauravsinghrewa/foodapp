@@ -1,0 +1,41 @@
+.home{
+    margin-top: 80px;
+    height: 30vw;
+    background: url('../assets/header_img.png')no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-left:15%;
+
+}
+
+.home-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom:10% ;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.home-contents h2{
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: max(4.5vw,22px);
+}
+
+.home-contents p{
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+.home-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    font-size: max(1vw,10px);
+}
